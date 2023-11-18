@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Gallery</title>
+    <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/sXKCqhs0/favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Lato", sans-serif
+        }
+
+        .w3-bar,
+        h1,
+        button {
+            font-family: "Montserrat", sans-serif
+        }
+
+        .fa-anchor,
+        .fa-coffee {
+            font-size: 200px
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="w3-bar w3-red w3-card w3-large">
+
+        <!-- Navbar -->
+
+        <div class="w3-right">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red"
+                href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="./demo.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-white">Home</a>
+            <a href="./about-us.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About
+                Us</a>
+            <a href="./contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact
+                Us</a>
+            <a href="./gallery.html"
+                class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-hide-small">Gallery</a>
+            <a href="./donations.html" class="w3-bar-item w3-button w3-white w3-padding-large ">Donations</a>
+        </div>
+
+        <!-- Navbar on small screens -->
+
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+            <a href="./demo.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+            <a href="./about-us.html" class="w3-bar-item w3-button w3-padding-large">About Us</a>
+            <a href="./contact.html" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
+            <a href="./gallery.html" class="w3-bar-item w3-button w3-padding-large">Gallery</a>
+        </div>
+    </div>
+
+    <div class="w3-container">
+        <header class="w3-center w3-padding-32">
+            <h1 class="w3-xxlarge">How you can help</h1>
+            <p class="w3-medium">
+                While we work diligently to establish Colibri Foundation, your support is invaluable. Your
+                generous contributions will play a crucial role in launching our mission and making a
+                difference in the lives of countless young individuals.
+            </p>
+        </header>
+        <section id="donation-options" class="w3-padding-16">
+            <h2 class="w3-xxlarge w3-center">How You Can Help</h2>
+
+            <div class="w3-row-padding w3-center">
+
+                <div class="w3-col m4 w3-margin-bottom">
+
+                    <div class="w3-card">
+                        <header class="w3-container w3-light-grey">
+                            <h3>One-Time Donation</h3>
+                        </header>
+
+                        <div class="w3-container">
+                            <img src="" alt="btc" style="width: 50%; height: auto;" />
+                            <p>Contribute to our cause with a one-time donation.</p>
+                            <button class="w3-button w3-block w3-green">Donate Now</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="w3-col m4 w3-margin-bottom">
+
+                    <div class="w3-card">
+                        <header class="w3-container w3-light-grey">
+                            <h3>Monthly Donation</h3>
+                        </header>
+
+                        <div class="w3-container">
+                            <p>Become a sustaining member by making a monthly donation.</p>
+                            <button class="w3-button w3-block w3-green">Donate Monthly</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w3-col m4 w3-margin-bottom">
+
+                    <div class="w3-card">
+                        <header class="w3-container w3-light-grey">
+                            <h3>Have something else in mind?</h3>
+                        </header>
+
+                        <div class="w3-container">
+                            <p>Choose a project that you are passionate about. Talk to us on how we can help make it a
+                                reality.</p> <button class="w3-button w3-block w3-green">Talk to us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <h2 class="w3-xxlarge w3-center">Make a Donation</h2>
+            <div class="w3-col w3-margin-bottom w3-center">
+                    <img src="https://i.postimg.cc/D0Zr93c1/Web-capture-17-11-2023-63116.jpg" alt="skin and bones" style="width: 50%; height: auto;">
+                </div>
+            </div>
+            <form action="submit-donation.php" method="post"
+                class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin">
+                <!-- Donation form fields -->
+            </form>
+        
+        <footer class="w3-center w3-padding-16">
+            <p>Contact us at support@colibri.foundation or +1 (614) 352-0107 for more information.</p>
+        </footer>
+    
+    <script>
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+</body>
+
+
+</html>

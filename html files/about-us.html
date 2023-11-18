@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Who we are...</title>
+    <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/sXKCqhs0/favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Lato", sans-serif
+        }
+
+        .w3-bar,
+        h1,
+        button {
+            font-family: "Montserrat", sans-serif
+        }
+
+        .fa-anchor,
+        .fa-coffee {
+            font-size: 200px
+        }
+
+        .about-section {
+            padding: 50px;
+            text-align: center;
+            background-color: #474e5d;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="w3-bar w3-red w3-card w3-large">
+
+        <!-- Navbar -->
+
+        <div class="w3-right">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red"
+                href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="./demo.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-white">Home</a>
+            <a href="./about-us.html" class="w3-bar-item w3-button w3-white w3-padding-large">About Us</a>
+            <a href="./contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">
+                Contact
+                Us
+            </a>
+            <a href="./gallery.html"
+                class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Gallery</a>
+            <a href="./donations.html"
+                class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Donations</a>
+        </div>
+
+        <!-- Navbar on small screens -->
+
+        <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-large">
+            <a href="./demo.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+            <a href="./contact.html" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
+            <a href="./gallery.html" class="w3-bar-item w3-button w3-padding-large">Gallery</a>
+            <a href="./donations.html" class="w3-bar-item w3-button w3-padding-large">Donations</a>
+        </div>
+    </div>
+
+
+
+    <div class="w3-container w3-white">
+        <h1 class="w3-right">About Us</h1>
+    </div>
+
+    <div class="about-section">
+        <h4>A Story of Love and Hurt.</h4>
+
+        <div class="w3-justify">
+            <p>
+
+                My beloved daughter, Brisa, left this world too soon,
+                driven to despair by the insidious grip of
+                depression. Her story is one of tragedy, but it's also the driving force behind our mission.
+                As an extraordinary individual, Brisa excelled in both mathematics and art. She ranked
+                second in her high school, earned a scholarship to Ohio State University, and studied
+                computer science engineering. Yet, her true passion lay in art, where she poured her heart
+                and soul into expressing her mental battles and her unique perspective on the world. Her
+                journey with depression led to episodes so severe that hospitalization became necessary.
+                Despite the hardships, her future seemed bright.
+            </p>
+        </div>
+    </div>
+    <!-- Header -->
+    <!-- About Section -->
+
+    <div class="w3-container" style="padding: 50px;">
+        <h2 class="w3-center w3-xxlarge">About Colibri Foundation</h2>
+        <p class="w3-large">
+            Founded in 2023, Colibri Foundation is a non-profit organization dedicated to supporting and
+            empowering young individuals. Our mission is to provide a nurturing environment where young minds can
+            grow, learn, and flourish. We believe in the power of education, community engagement, and individual
+            development to transform lives.
+        </p>
+        <p class="w3-large">
+            At Colibri Foundation, we offer a range of programs including educational workshops, mentorship
+            opportunities, and community service projects. Each initiative is designed to inspire confidence, foster
+            creativity, and encourage a sense of community among our participants.
+        </p>
+    </div>
+
+    <!-- Mission and Vision Section -->
+    <section class="w3-container w3-light-grey" style="padding: 50px;">
+        <h2 class="w3-center w3-xxlarge">Our Mission and Vision</h2>
+
+        <div class="w3-row-padding w3-center">
+
+            <div class="w3-half">
+                <h3 class="w3-xlarge">Mission</h3>
+                <p>
+                    Our mission is to create a supportive ecosystem that nurtures young talent and enables them to
+                    reach their full potential. We strive to be a beacon of hope and guidance, empowering youth
+                    through education, mentorship, and community service.
+                </p>
+            </div>
+
+            <div class="w3-half">
+                <h3 class="w3-xlarge">Vision</h3>
+                <p>
+                    We envision a world where every young individual has the opportunity to succeed and make a
+                    positive impact in their community. Our vision is to build a future where youth are actively
+                    engaged in shaping a brighter, more inclusive tomorrow.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <!-- Impact Section -->
+    <section class="w3-container w3-light-grey" style="padding: 50px;">
+        <h2 class="w3-center w3-xxlarge">Our Impact</h2>
+        <p class="w3-large">
+            Since our inception, we have positively impacted the lives of [number] young individuals through our
+            various programs. We take pride in our alumni who have gone on to achieve remarkable successes in
+            various fields.
+        </p>
+        <!-- Add statistics or stories of impact here -->
+    </section>
+
+    <!-- Contact Section -->
+    <section class="w3-container" style="padding: 50px;">
+        <h2 class="w3-center w3-xxlarge">Get in Touch</h2>
+        <p class="w3-large w3-center">
+            We're always open to collaborations, partnerships, and any form of support. If you're interested in our
+            work and want to get involved, don't hesitate to <a href="./contact.html">reach out to us.</a>
+        </p>
+        <!-- Contact information or form here -->
+    </section>
+
+
+</body>
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+
+    <div class="w3-xlarge w3-padding-32">
+        <i class="fa fa-facebook-official w3-hover-opacity">
+        </i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </div>
+    <p>Powered by <a href="https://colibri.com" target="_blank">Colibri Foundation</a></p>
+
+    <div class="w3-medium">
+        <p>&copy; 2023 Colibri Foundation. All rights reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="#">Accessibility</a></p>
+    </div>
+    </div>
+</footer>
+
+</html>

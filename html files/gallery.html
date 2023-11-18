@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Gallery</title>
+    <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/sXKCqhs0/favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Lato", sans-serif
+        }
+
+        .w3-bar,
+        h1,
+        button {
+            font-family: "Montserrat", sans-serif
+        }
+
+        .fa-anchor,
+        .fa-coffee {
+            font-size: 200px
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="w3-bar w3-red w3-card w3-large">
+
+        <!-- Navbar -->
+
+        <div class="w3-right">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red"
+                href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="./demo.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-white">Home</a>
+            <a href="./about-us.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About
+                Us</a>
+            <a href="./contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact
+                Us</a>
+            <a href="./gallery.html" class="w3-bar-item w3-button w3-padding-large w3-white">Gallery</a>
+            <a href="./donations.html"
+                class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Donations</a>
+        </div>
+
+
+        <!-- Navbar on small screens -->
+
+        <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-large">
+            <a href="./demo.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+            <a href="./about-us.html" class="w3-bar-item w3-button w3-padding-large">About Us</a>
+            <a href="./contact.html" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
+            <a href="./donations.html" class="w3-bar-item w3-button w3-padding-large">Donations</a>
+        </div>
+    </div>
+
+    <!--page content-->
+
+    <div class="w3-container w3-gray">
+        <h1>Bringing art to Life</h1>
+    </div>
+
+    <div class="w3-row-padding w3-margin-top">
+
+        <div class="w3-third">
+
+            <div class="w3-card">
+                <img src="https://i.postimg.cc/TPtqVCG1/caz.jpg" style="width:100%">
+
+                <div class="w3-container">
+                    <h4>5 Terre</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-third">
+
+            <div class="w3-card">
+                <img src="https://i.postimg.cc/7YzVF31t/col.jpg" style="width:100%">
+
+                <div class="w3-container">
+                    <h4>Monterosso</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-third">
+
+            <div class="w3-card">
+                <img src="https://i.postimg.cc/vZLvBGNW/coll.jpg" style="width:100%">
+
+                <div class="w3-container">
+                    <h4>Vernazza</h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="w3-row-padding w3-margin-top">
+
+        <div class="w3-third">
+
+            <div class="w3-card">
+                <img src="https://i.postimg.cc/VNfW02x2/collr.jpg" style="width:100%">
+
+                <div class="w3-container">
+                    <h4>Manarola</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-third">
+
+            <div class="w3-card">
+                <img src="https://i.postimg.cc/0yqfPzck/cul.jpg" style="width:100%">
+
+                <div class="w3-container">
+                    <h4>Corniglia</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-third">
+
+            <div class="w3-card">
+                <img src="https://i.postimg.cc/G29PqGhQ/cuz.jpg" style="width:100%">
+
+                <div class="w3-container">
+                    <h4>Riomaggiore</h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+<script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+</script>
+</body>
+
+</html>

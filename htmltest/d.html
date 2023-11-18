@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Donate to Colibri Foundation</title>
+    <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/sXKCqhs0/favicon.png">
+    <link rel="canonical" href="https://colibri.com/home">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Lato", sans-serif
+        }
+
+        /* Additional custom styles */
+
+        .w3-bar-item,
+        .w3-button {
+            color: #fff;
+            /* White text */
+            transition: background-color 0.3s, color 0.3s;
+            /* Smooth transition for hover effect */
+        }
+
+            .w3-bar-item:hover,
+            .w3-button:hover {
+                background-color: #f44336;
+                /* Reddish background on hover */
+                color: #000;
+                /* Black text on hover */
+            }
+
+        .w3-bar,
+        h1,
+        button {
+            font-family: "Montserrat", sans-serif
+        }
+
+        .fa-anchor,
+        .fa-coffee {
+            font-size: 200px
+        }
+
+
+
+        body, h1, h2, h3, h4, h5, h6 {
+             font-family: "Segoe UI", Arial, sans-serif;
+            
+        }
+
+        header {
+             background-color: #f1f1f1;
+             color: #000;
+             padding: 64px;
+            
+        }
+
+        #donation-options .w3-card, #testimonials .w3-card, #donation-form .w3-card-4 {
+             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+             transition: 0.3s;
+             width: 100%;
+            
+        }
+
+            #donation-options .w3-card:hover, #testimonials .w3-card:hover, #donation-form .w3-card-4:hover {
+                 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+                
+            }
+
+        .w3-button {
+             border: none;
+             display: inline-block;
+             padding: 8px 16px;
+             vertical-align: middle;
+             overflow: hidden;
+             text-decoration: none;
+             color: inherit;
+             background-color: inherit;
+             text-align: center;
+             cursor: pointer;
+             white-space: nowrap;
+            
+        }
+
+        .w3-green, .w3-hover-green:hover {
+             color: #fff !important;
+             background-color: #4CAF50 !important;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="w3-top">
+
+        <div class="w3-bar w3-blue w3-card w3-large">
+
+            <!-- Navbar -->
+
+            <div class="w3-right">
+                <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red"
+                   href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <a href="./demo.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+                <a href="./about-us.html"
+                   class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Us</a>
+                <a href="./contact.html"
+                   class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Cointact Us</a>
+                <a href="./gallery.html"
+                   class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Gallery</a>
+                <a href="./donations.html"
+                   class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Donations</a>
+            </div>
+
+            <!-- Navbar on small screens -->
+
+            <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+                <a href="./about-us.html" class="w3-bar-item w3-button w3-show w3-padding-large">About Us</a>
+                <a href="./contact.html" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
+                <a href="./gallery.html" class="w3-bar-item w3-button w3-padding-large">Gallery</a>
+                <a href="./donations.html" class="w3-bar-item w3-button w3-padding-large">Donations</a>
+            </div>
+        </div>
+    </div>
+    <!-- do not change anything above this line-->
+
+   
+    <div class="w3-container">
+        <header class="w3-center w3-padding-64">
+            <h1 class="w3-xxxlarge">Welcome to Colibri Foundation</h1>
+            <p class="w3-large">Help us make a difference in the world.</p>
+        </header>
+        <section id="donation-options" class="w3-padding-16">
+            <h2 class="w3-xxlarge w3-center">How You Can Help</h2>
+            <div class="w3-row-padding w3-center">
+                <div class="w3-col m4 w3-margin-bottom">
+                    <div class="w3-card">
+                        <header class="w3-container w3-light-grey">
+                            <h3>One-Time Donation</h3>
+                        </header>
+
+                        <div class="w3-container">
+                            <p>Contribute to our cause with a one-time donation.</p>
+                            <button class="w3-button w3-block w3-green">Donate Now</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="w3-col m4 w3-margin-bottom">
+                    <div class="w3-card">
+                        <header class="w3-container w3-light-grey">
+                            <h3>Monthly Donation</h3>
+                        </header>
+                        <div class="w3-container">
+                            <p>Become a sustaining member by making a monthly donation.</p>
+                            <button class="w3-button w3-block w3-green">Donate Monthly</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-col m4 w3-margin-bottom">
+                    <div class="w3-card">
+                        <header class="w3-container w3-light-grey">
+                            <h3>Have something else in mind?</h3>
+                        </header>                    <div class="w3-container">
+                            <p>Choose a project that you are passionate about. Talk to us on how we can help make it a reality.</p>                        <button class="w3-button w3-block w3-green">Talk to us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials" class="w3-padding-16">
+            <h2 class="w3-xxlarge w3-center">Stories of Impact</h2>
+            <!-- Testimonials go here -->
+        </section>
+        <section id="donation-form" class="w3-padding-16">
+
+            <h2 class="w3-xxlarge w3-center">Make a Donation</h2>
+            <form action="submit-donation.php" method="post" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin">
+                <!-- Donation form fields -->
+            </form>
+        </section>
+        <footer class="w3-center w3-padding-16">
+            <p>Contact us at heart@colibri.foundation or +1 (209) 259-1354 for more information.</p>
+        </footer>
+        </div>
+        </body>
+        <script src="script.js"></script>
+    </div>
+</html>

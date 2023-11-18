@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+
+    <title>Donation Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Lato", sans-serif
+        }
+
+        .w3-bar,
+        h1,
+        button {
+            font-family: "Montserrat", sans-serif
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="w3-white w3-centered">
+
+        <div class="w3-blue w3-round-large" style="padding: 70px">
+            <h2 class="w3-center w3-text-black w3-xxlarge">Create an account</h2>
+            <p class="w3-center w3-large">Sign up to make monthly donations</p>
+        </div>
+
+        <div class="w3-padding-64">
+
+            <div class="w3-container w3-card-4 w3-light-grey w3-padding-48 w3-margin" style="width: auto">
+                <form action="submit-contact.php" method="POST">
+                    <p>
+                        <input class="w3-input w3-border" type="text" name="name" placeholder="First Name" required>
+                        <input class="w3-input w3-border" type="text" name="name" placeholder="Last Name" required>
+                    </p>
+                    <p>
+                        <input class="w3-input w3-border" type="email" name="email" placeholder="E-mail Address"
+                            required>
+                    </p>
+                    <p>
+                        <input class="w3-input w3-border" type="date" name="date" placeholder="Date Of Birth" required>
+                    </p>
+                    <p>
+                        <input class="w3-input w3-border" type="tel" name="phone" placeholder="Phone Number" required>
+                    </p>
+                    <p>
+                        <input class="w3-input w3-border" type="password" name="password" placeholder="Password"
+                            required>
+                        <input class="w3-imput w3-border" type="password" name="password" placeholder="verify password"
+                            required>
+                    </p>
+                    <p>
+                        <label for="inquiryType">Select Donation Frequency: </label>
+                        <select class="w3-select w3-border" name="inquiryType" required>
+                            <option value="" disabled selected>...</option>
+                            <option value="general">Daily</option>
+                            <option value="donation">Weekly</option>
+                            <option value="volunteer">Monthly</option>
+                            <option value="events">2x Monthly</option>
+                            <option value="other">Custom</option>
+                        </select>
+                        <input class="w3-input w3-border" type="text" name="other"
+                            placeholder="specify your prefered Frequency if custom">
+                    </p>
+                    <p>
+
+                    </p>
+                    <label class="w3-text-blue"><b>Message</b></label>
+                    <textarea class="w3-input w3-border" name="message" required style="resize: none;"></textarea>
+
+                    <p class="w3-center">
+                        <button class="w3-button w3-green" type="submit">Sign Up</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
